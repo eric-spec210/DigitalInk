@@ -81,7 +81,7 @@ fun Doodle(modifier: Modifier = Modifier) {
     // 取得語言辨識碼
     val modelIdentifier = remember {
         try {
-            DigitalInkRecognitionModelIdentifier.fromLanguageTag("zh-Hant")
+            DigitalInkRecognitionModelIdentifier.fromLanguageTag("zxx-Zsym-x-autodraw")
         } catch (e: Exception) {
             null
         }
